@@ -1,3 +1,4 @@
+const { generation } = require ("mongoose")
 const createError = require("http-errors")
 const gen = require("../models/generation.model");
 const generationModel = require("../models/generation.model");
