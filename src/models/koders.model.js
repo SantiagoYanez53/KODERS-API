@@ -26,7 +26,7 @@ const schema = new mongoose.Schema({
         type: String,
         required: false,
     },
-    genartion: {
+    generation: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "generation"
     },
